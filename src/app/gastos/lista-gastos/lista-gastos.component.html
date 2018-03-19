@@ -1,3 +1,10 @@
 <p>
   lista-gastos works!
 </p>
+<ul>
+  <li *ngFor="let gasto  of lista">
+    <h2>{{gasto.importe}}</h2>
+    <p>{{gasto.categoria}}</p>
+    <p>{{gasto.fecha}}</p> 
+  </li>
+</ul>
